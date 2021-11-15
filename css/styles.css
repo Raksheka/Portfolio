@@ -1,0 +1,113 @@
+body {
+  overflow-x: hidden;
+  margin: 5px;
+
+}
+
+.nav {
+position: fixed;
+transition: 1s;
+}
+.nav-style{
+  font-style: "Raleway";
+  font-size: 20px;
+}
+.nav-scroll{
+/*background-image: url('../images/marble.png');*/
+background-color: white;
+}
+.body-scroll{
+  padding-top: 40px;
+}
+
+#navbar1 {
+  width: 100vw;
+  height: 90vh;
+
+  background-image: url('../images/navbar1.png');
+  background-size: cover;
+background-attachment: scroll;
+}
+
+.content{
+  padding-top: 100px;
+}
+
+#myHeader {
+  background-image: url('../images/a gift.gif');
+  font-family: "Raleway";
+  font-weight: 400;
+  height: 90vh;
+  width: 100vw;
+background-attachment:local;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+.header{
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+.aboutme-2{
+  padding-bottom: : 15em;
+}
+
+/*sec 0*/
+.sec0-bg {
+  background-image: url('../images/birds.gif');
+  background-size: contain;
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*sec 1*/
+#section1 {}
+
+.sec1-bg {
+  background-image: url('../images/sq-img.jpg');
+  background-size: 450px 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px;
+}
+
+.sec1-bg:hover {
+  transform: rotateY(180deg);
+  transition: 1.5s;
+  transform-style: preserve-3d;
+  position: relative;
+  background-image: url('../images/girl.jpg');
+  background-size: 450px 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*sec 2*/
+.sec2 {
+  padding-left: 75px;
+  padding-right: 50px;
+}
+
+.sec2-image {
+  width: 200px;
+}
+
+/*end sec*/
+#endbar {
+  background-image: url('../images/marble.png');
+  padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+#myHeader{
+  background-image: url('../images/mobile.gif');
+  background-size: contain;
+}
+.header{
+  font-size: 20px;
+}
+
+}
